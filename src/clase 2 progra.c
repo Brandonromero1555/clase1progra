@@ -44,14 +44,14 @@ int main(void) {
 
     do
     {
-
+        fflush(stdin);
     	printf("ingresar numero");
     	scanf("%d",&n);
 
     	suma += n;
 
 		printf("continuar? s/n");
-		fflush(stdin);
+
 		scanf("%c",&respuesta);
 
     }while(respuesta == 's');
